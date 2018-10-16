@@ -2,14 +2,14 @@
 jasypt:
   encryptor:
     password: djj
-public 
+ 
 server:
   tomcat:
     max-threads: 500 # Maximum amount of worker threads.
     min-spare-threads: 50 # Minimum amount of worker threads
 
 spring:
-  redis:
+  rediswww:
     remote: false        #cachecloud 获取
     host: 127.0.0.1
     port: 6379
