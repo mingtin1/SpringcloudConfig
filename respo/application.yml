@@ -1,8 +1,8 @@
 #加密配置
 jasypt:
   encryptor:
-    password: lengleng
-
+    password: djj
+public 
 server:
   tomcat:
     max-threads: 500 # Maximum amount of worker threads.
