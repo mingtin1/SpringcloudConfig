@@ -1,0 +1,7 @@
+server:
+  port: 8769
+zuul:
+  routes:
+    feign-consumer: /api-a/**
+    cloud-client-order: /api-b/**
+
