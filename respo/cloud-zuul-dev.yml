@@ -1,4 +1,9 @@
 server:
   port: 8769
+zuul:
+  routes:
+    admin:
+      path: /admin/**
+      serviceId: itdj-upms-server
 
 
