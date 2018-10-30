@@ -31,7 +31,8 @@ spring:
     testOnReturn: true
     poolPreparedStatements: true
     maxPoolPreparedStatementPerConnectionSize: 20
-
+  thymeleaf:
+    cache: false 
 #mybaits-plus配置，修改主键类型，mapper.xml、type 别名等
 mybatis-plus:
   mapper-locations: classpath:/mapper/*Mapper.xml
