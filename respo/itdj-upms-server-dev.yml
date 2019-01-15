@@ -1,4 +1,5 @@
 server:
+  context-path: /upms-server
   port: 4000
 #Redis cache 过期时间设置
 redis:
